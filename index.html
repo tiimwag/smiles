@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>emoji lols</title>
+    <style media="screen">
+      .lolfck {
+        width: 72px;
+        height: 72px;
+        position: relative;
+        display: block;
+        background: url('images/lol fck.png');
+        animation: fcku 3s steps(1) infinite;
+      }
+      .slaytf {
+        margin-top: 100px;
+        width: 72px;
+        height: 72px;
+        position: relative;
+        display: block;
+        background: url('images/slay tf.png');
+        animation: slay 1.4s steps(1) infinite;
+      }
+      .omg {
+        margin-top: 100px;
+        width: 72px;
+        height: 72px;
+        position: relative;
+        display: block;
+        background: url('images/no way.png');
+        animation: omg 2s steps(1) infinite;
+      }
+      @keyframes fcku {
+        0% {background-position: 0 top}
+        20% {background-position: -72px top}
+        90% {background-position: -144px top}
+      }
+      @keyframes slay {
+        0% {background-position: 0 top}
+        50% {background-position: -72px top}
+      }
+      @keyframes omg {
+        0% {background-position: 0 top}
+        50% {background-position: -72px top}
+      }
+    </style>
+  </head>
+  <body>
+    <div class="lolfck"></div>
+    <div class="slaytf"></div>
+    <div class="omg"></div>
+  </body>
+</html>
